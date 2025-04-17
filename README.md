@@ -255,10 +255,10 @@ int main(void)
 
 void lcd_display(){
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"Prajin S\n");
+	Lcd_string(&lcd,"ALLEN\n");
 
 	Lcd_cursor(&lcd,1,1);
-	Lcd_string(&lcd,"212223230151\n");
+	Lcd_string(&lcd,"123456789\n");
 
 	for(int x=0;x<100;x++){
 		Lcd_cursor(&lcd,2,1);
@@ -385,9 +385,11 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ## Output screen shots of proteus  :
  #### OFF Condition:
- ![Screenshot 2025-03-27 143036](https://github.com/user-attachments/assets/94bd934f-4514-4069-85f0-b7e1aea77790)
+ ![Screenshot 2025-04-17 144321](https://github.com/user-attachments/assets/a336573e-17b9-4da2-af43-807e9ab9497b)
+
  #### ON Conition:
-![image](https://github.com/user-attachments/assets/ba27c0cf-c798-4241-93ea-a9212a4d4775)
+![Screenshot 2025-04-17 144257](https://github.com/user-attachments/assets/7fef7519-a1dd-4549-aebf-a62c455cc950)
+
 
 
  
